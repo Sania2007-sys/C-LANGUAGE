@@ -1,0 +1,31 @@
+ #include<stdio.h>
+ int main()
+ {
+    int line=4;
+    int star=5;
+    int i,j,k,x=0;
+    int count;
+    for(i=0;i<block;i++)
+    {
+    count=0;
+        for(j=0;j<line-i;j++)
+        {
+            for(k=0;k<star;k++)
+                {
+                    printf("* ");
+                    x++;
+                    count++;
+                }
+            printf("\n");
+            
+            
+        }
+        
+       printf("---------\n");
+       printf("total in block is %d\n ",count);
+        
+    }
+    printf("total is %d",x);
+    
+    return 0;
+}
